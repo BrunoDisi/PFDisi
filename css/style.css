@@ -1,0 +1,161 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    max-width: 100%;
+    background: #171321;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.home{
+    background: linear-gradient(
+        to right,
+        #171321 0%,
+        #171321 85%,
+        #0D314A 85%,
+        #0D314A 100%
+
+    )
+    }
+
+/* HEADER */
+header{
+    background: #0D314A;
+}
+
+header a{
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+header a span{
+    color: aqua;
+}
+
+.navbar-toggler{
+    color: aqua;
+}
+
+.navbar-brand{
+color:#fff
+}
+.nav-item:hover{
+    background-color: aqua;
+    color: #171321;
+    border-radius: 8%;
+    
+}
+.nav-item{
+    padding: 0 5px;
+    text-decoration: none;
+}
+
+.collapse.navbar-collapse.justify-content-end ul li a{
+    color: #fff
+}
+
+.main-logo {
+    height: 40px ;
+}
+
+/* FOOTER */
+
+
+footer a{
+    padding: 2em;
+}
+footer p{
+    padding: 20px;
+}
+
+
+
+/* MAIN INDEX */
+
+h1{
+    font-size: 5em;
+}
+
+.hi{
+    font-size: 4em;
+}
+
+.bruno {
+    color: aqua;
+}
+
+
+/* ABOUT ME */
+
+
+
+
+.hacker {
+    height: 140px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: solid 3px aqua;
+}
+
+
+
+
+
+.text-about-me.align-items-center{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    background-color: #fff;
+    color: #191c32;
+    border-radius: 25px;
+    border: solid 3px aqua;
+    padding: 10px;
+}
+
+.skills-container {
+    background-color: #fff;
+    color: #171321;
+}
+
+.card.border-0 i{
+    color: #0D314A;
+   
+}
+
+
+
+.row{
+    margin: 0;
+}
+
+.card-body{
+    height: 7;
+}
+
+.skill.card.border-0.shadow-lg{
+width: 18rem;
+}
+.skill.card.border-0 shadow-lg.p-2{
+    width: 18rem;
+    min-height: auto;
+}
