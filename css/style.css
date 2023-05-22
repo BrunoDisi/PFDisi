@@ -34,6 +34,10 @@ body::-webkit-scrollbar{
     )
     }
 
+    h2 {
+        font-size: 4em;
+    }
+
 /* HEADER */
 header{
     background: #0D314A;
@@ -92,11 +96,11 @@ footer p{
 /* MAIN INDEX */
 
 h1{
-    font-size: 5em;
+    font-size: 4em;
 }
 
 .hi{
-    font-size: 4em;
+    font-size: 3em;
 }
 
 .bruno {
@@ -159,3 +163,39 @@ width: 18rem;
     width: 18rem;
     min-height: auto;
 }
+
+/* Services */
+
+@media (min-width:801px){
+    .container.services{
+        margin-top: 100px;
+    }
+    
+}
+
+.container.services h3{
+    font-size: 4em;
+}
+
+.container.services p{
+    font-size: 2em;
+}
+
+.container.services .card{
+    background-color: #171321;
+    border: solid 1px #fff;
+    color: #fff;
+}
+
+.container.services .card-header{
+    border: solid 1px #fff;
+}
+
+.circle {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin-left: 6px;
+}
+
