@@ -2,15 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 
-
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-
 
 body{
     font-family: 'Montserrat', sans-serif;
@@ -39,6 +35,7 @@ body::-webkit-scrollbar{
     }
 
 /* HEADER */
+
 header{
     background: #0D314A;
 }
@@ -68,7 +65,6 @@ color:#fff
     
 }
 
-
 .nav-item{
     padding: 0 5px;
     text-decoration: none;
@@ -84,15 +80,12 @@ color:#fff
 
 /* FOOTER */
 
-
 footer a{
     padding: 2em;
 }
 footer p{
     padding: 20px;
 }
-
-
 
 /* MAIN INDEX */
 
@@ -108,24 +101,16 @@ h1{
     color: aqua;
 }
 
-
 /* ABOUT ME */
-
-
-
 
 .hacker {
     height: 140px;
     
     width: 140px;
-    border-radius: 20px;
+    border-radius: 50%;
     background-color: #fff;
     border: solid 3px aqua;
 }
-
-
-
-
 
 .text-about-me.align-items-center{
     display: flex;
@@ -146,10 +131,7 @@ h1{
 
 .card.border-0 i{
     color: #0D314A;
-   
 }
-
-
 
 .row{
     margin: 0;
@@ -245,6 +227,7 @@ width: 18rem;
     border-radius: 2px;
     font-size: 14px;
     border: solid 1px #171321 ;
+    max-height: 120px;
 }
 
 @media only screen and (max-width:600px){ 
@@ -258,6 +241,4 @@ width: 18rem;
         height: 480px;
         top: 0 !important;
     }
-
-    
 }
