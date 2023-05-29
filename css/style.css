@@ -1,244 +1,230 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: 'Montserrat', sans-serif;
-    color: #fff;
-    max-width: 100%;
-    background: #171321;
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  max-width: 100%;
+  background: #171321;
 }
 
-body::-webkit-scrollbar{
-    display: none;
+body::-webkit-scrollbar {
+  display: none;
 }
 
-.home{
-    background: linear-gradient(
-        to right,
-        #171321 0%,
-        #171321 85%,
-        #0D314A 85%,
-        #0D314A 100%
+.home {
+  background: linear-gradient(to right, #171321 0%, #171321 85%, #0D314A 85%, #0D314A 100%);
+}
 
-    )
-    }
-
-    h2 {
-        font-size: 4em;
-    }
+h2 {
+  font-size: 4em;
+}
 
 /* HEADER */
-
-header{
-    background: #0D314A;
+header {
+  background: #0D314A;
 }
 
-header a{
-    padding: 5px;
+header a {
+  padding: 5px;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-header a span{
-    color: aqua;
+header a span {
+  color: aqua;
 }
 
-.navbar-toggler{
-    color: aqua;
+.navbar-toggler {
+  color: aqua;
 }
 
-.navbar-brand{
-color:#fff
-}
-.nav-item:hover{
-    background-color: aqua;
-    border-radius: 10px;
-    
+.navbar-brand {
+  color: #fff;
 }
 
-.nav-item{
-    padding: 0 5px;
-    text-decoration: none;
+.nav-item:hover {
+  background-color: aqua;
+  border-radius: 10px;
 }
 
-.collapse.navbar-collapse.justify-content-end ul li a{
-    color: #fff
+.nav-item {
+  padding: 0 5px;
+  text-decoration: none;
+}
+
+.collapse.navbar-collapse.justify-content-end ul li a {
+  color: #fff;
 }
 
 .main-logo {
-    height: 40px ;
+  height: 40px;
 }
 
 /* FOOTER */
-
-footer a{
-    padding: 2em;
+footer a {
+  padding: 2em;
 }
-footer p{
-    padding: 20px;
+
+footer p {
+  padding: 20px;
 }
 
 /* MAIN INDEX */
-
-h1{
-    font-size: 4em;
+h1 {
+  font-size: 4em;
 }
 
-.hi{
-    font-size: 3em;
+.hi {
+  font-size: 3em;
 }
 
 .bruno {
-    color: aqua;
+  color: aqua;
 }
 
 /* ABOUT ME */
-
 .hacker {
-    height: 140px;
-    
-    width: 140px;
-    border-radius: 50%;
-    background-color: #fff;
-    border: solid 3px aqua;
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: solid 3px aqua;
 }
 
-.text-about-me.align-items-center{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-self: center;
-    background-color: #fff;
-    color: #191c32;
-    border-radius: 25px;
-    border: solid 3px aqua;
-    padding: 10px;
+.text-about-me.align-items-center {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-self: center;
+  background-color: #fff;
+  color: #191c32;
+  border-radius: 25px;
+  border: solid 3px aqua;
+  padding: 10px;
 }
 
 .skills-container {
-    background-color: #fff;
-    color: #171321;
+  background-color: #fff;
+  color: #171321;
 }
 
-.card.border-0 i{
-    color: #0D314A;
+.card.border-0 i {
+  color: #0D314A;
 }
 
-.row{
-    margin: 0;
+.row {
+  margin: 0;
 }
 
-.card-body{
-    height: 7;
+.card-body {
+  height: 7;
 }
 
-.skill.card.border-0.shadow-lg{
-width: 18rem;
+.skill.card.border-0.shadow-lg {
+  width: 18rem;
 }
-.skill.card.border-0 shadow-lg.p-2{
-    width: 18rem;
-    min-height: auto;
+
+.skill.card.border-0 shadow-lg.p-2 {
+  width: 18rem;
+  min-height: auto;
 }
 
 /* Services */
-
-@media (min-width:801px){
-    .container.services{
-        margin-top: 100px;
-    }
-    
+@media (min-width: 801px) {
+  .container.services {
+    margin-top: 100px;
+  }
+}
+.justify-content-center.services h3 {
+  font-size: 4em;
 }
 
-.container.services h3{
-    font-size: 4em;
+.justify-content-center.services p {
+  font-size: 2em;
 }
 
-.container.services p{
-    font-size: 2em;
+.justify-content-center.services .card {
+  background-color: #171321;
+  border: solid 1px #fff;
+  color: #fff;
 }
 
-.container.services .card{
-    background-color: #171321;
-    border: solid 1px #fff;
-    color: #fff;
-}
-
-.container.services .card-header{
-    border: solid 1px #fff;
+.container.services .card-header {
+  border: solid 1px #fff;
 }
 
 .circle {
-    background-color: #fff;
-    border-radius: 50%;
-    width: 15px;
-    height: 15px;
-    margin-left: 6px;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  margin-left: 6px;
 }
 
 /* Contact me*/
-
-.first-col{
-    background-color: #0D314A;
-    height: 550px;
-    position: relative;
-    width: 550px;
-    left: 155px;
-    top: 171px;
-    border-radius: 20px;
+.first-col {
+  background-color: #0D314A;
+  height: 550px;
+  position: relative;
+  width: 550px;
+  left: 155px;
+  top: 171px;
+  border-radius: 20px;
 }
 
-.img-fluid.image{
-    border-radius: 20px;
+.img-fluid.image {
+  border-radius: 20px;
 }
 
-.last-row{
-    width: 60% !important;
-    position: relative !important;
-    left: 350px;
-    top: 50px;
-    height: 200px;
-    padding-bottom: 100px !important;
-    background-color: #244760;
-    border-radius: 20px;
+.last-row {
+  width: 60% !important;
+  position: relative !important;
+  left: 350px;
+  top: 50px;
+  height: 200px;
+  padding-bottom: 100px !important;
+  background-color: #244760;
+  border-radius: 20px;
 }
 
-.btn-primary{
-    background-color: #244760;
-    border: #244760;
+.btn-primary {
+  background-color: #244760;
+  border: #244760;
 }
 
-.btn-primary:hover{
-    background-color: #171321;
+.btn-primary:hover {
+  background-color: #171321;
 }
 
-.form-control{
-    height: 52px;
-    background-color: #c3ddef;
-    color: #fff;
-    border-radius: 2px;
-    font-size: 14px;
-    border: solid 1px #171321 ;
-    max-height: 120px;
+.form-control {
+  height: 52px;
+  background-color: #c3ddef;
+  color: #fff;
+  border-radius: 2px;
+  font-size: 14px;
+  border: solid 1px #171321;
+  max-height: 120px;
 }
 
-@media only screen and (max-width:600px){ 
-    .first-col{
-        position: initial;
-        left: 0;
-    }
-    .last-row{
-        left: 0 !important;
-        width: 100% !important;
-        height: 480px;
-        top: 0 !important;
-    }
+@media only screen and (max-width: 600px) {
+  .first-col {
+    position: initial;
+    left: 0;
+  }
+  .last-row {
+    left: 0 !important;
+    width: 100% !important;
+    height: 480px;
+    top: 0 !important;
+  }
 }
+
+/*# sourceMappingURL=style.css.map */
