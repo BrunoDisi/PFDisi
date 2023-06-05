@@ -1,7 +1,9 @@
 /* General */
 /* variables */
+/* fonts */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+/* general */
 * {
   margin: 0;
   padding: 0;
@@ -197,6 +199,32 @@ h2 {
     height: 480px;
     top: 0 !important;
   }
+}
+/* Services */
+.container.services h3 {
+  font-size: 4em;
+}
+
+.container.services p {
+  font-size: 2em;
+}
+
+.container.services .card {
+  background-color: #171321;
+  border: solid 1px #fff;
+  color: #fff;
+}
+
+.container.services .card-header {
+  border: solid 1px #fff;
+}
+
+.circle {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  margin-left: 6px;
 }
 
 /*# sourceMappingURL=style.css.map */

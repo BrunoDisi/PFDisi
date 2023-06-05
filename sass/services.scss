@@ -1,0 +1,27 @@
+/* Services */
+
+.container.services h3{
+    font-size: 4em;
+}
+
+.container.services p{
+    font-size: 2em;
+}
+
+.container.services .card{
+    background-color: #171321;
+    border: solid 1px #fff;
+    color: #fff;
+}
+
+.container.services .card-header{
+    border: solid 1px #fff;
+}
+
+.circle {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin-left: 6px;
+}
