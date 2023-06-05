@@ -8,8 +8,12 @@ $secondary-color: #0D314A;
 $tertiary-color: aqua;
 $font:  'Montserrat', sans-serif;
 
+/* fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+/* general */
 
 * {
     margin: 0;
@@ -33,7 +37,7 @@ body::-webkit-scrollbar{
 /* HEADER */
 
 header{
-    background: #0D314A;
+    background: $secondary-color;
 }
 
 header a{
@@ -45,18 +49,18 @@ a{
 }
 
 header a span{
-    color: aqua;
+    color: $tertiary-color;
 }
 
 .navbar-toggler{
-    color: aqua;
+    color: $tertiary-color;
 }
 
 .navbar-brand{
 color:#fff
 }
 .nav-item:hover{
-    background-color: aqua;
+    background-color: $tertiary-color;
     border-radius: 10px;
     transition: 1s;
     
