@@ -1,0 +1,56 @@
+/* Contact me*/
+
+.first-col{
+    background-color: $secondary-color;
+    height: 550px;
+    position: relative;
+    width: 550px;
+    left: 155px;
+    top: 171px;
+    border-radius: 20px;
+}
+
+
+
+.last-row{
+    width: 60% !important;
+    position: relative !important;
+    left: 350px;
+    top: 50px;
+    height: 200px;
+    padding-bottom: 100px !important;
+    background-color: #244760;
+    border-radius: 20px;
+}
+
+.btn-primary{
+    background-color: #244760;
+    border: #244760;
+}
+
+.btn-primary:hover{
+    background-color: $main-color;
+}
+
+.form-control{
+    height: 52px;
+    background-color: #c3ddef;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 14px;
+    border: solid 1px $main-color ;
+    max-height: 120px;
+}
+
+@media only screen and (max-width:600px){ 
+    .first-col{
+        position: initial;
+        left: 0;
+    }
+    .last-row{
+        left: 0 !important;
+        width: 100% !important;
+        height: 480px;
+        top: 0 !important;
+    }
+}

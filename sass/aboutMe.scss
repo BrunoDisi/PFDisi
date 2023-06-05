@@ -1,0 +1,47 @@
+/* ABOUT ME */
+
+.hacker {
+    height: 140px;
+    
+    width: 140px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: solid 3px aqua;
+}
+
+.text-about-me.align-items-center{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    background-color: #fff;
+    color: #191c32;
+    border-radius: 25px;
+    border: solid 3px aqua;
+    padding: 10px;
+}
+
+.skills-container {
+    background-color: #fff;
+    color: $main-color;
+}
+
+.card.border-0 i{
+    color: $secondary-color;
+}
+
+.row{
+    margin: 0;
+}
+
+.card-body{
+    height: 7;
+}
+
+.skill.card.border-0.shadow-lg{
+width: 18rem;
+}
+.skill.card.border-0 shadow-lg.p-2{
+    width: 18rem;
+    min-height: auto;
+}
