@@ -200,7 +200,9 @@ h2 {
     top: 0 !important;
   }
 }
-/* Services */
+
+/* services */
+
 .container.services h3 {
   font-size: 4em;
 }
@@ -209,13 +211,13 @@ h2 {
   font-size: 2em;
 }
 
-.container.services .card {
+.services .card {
   background-color: #171321;
   border: solid 1px #fff;
   color: #fff;
 }
 
-.container.services .card-header {
+.services .card-header {
   border: solid 1px #fff;
 }
 
