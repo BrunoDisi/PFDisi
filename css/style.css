@@ -25,43 +25,34 @@ body::-webkit-scrollbar {
 header {
   background: #0D314A;
 }
-
 header a {
   padding: 5px;
 }
-
-a {
-  text-decoration: none;
-}
-
 header a span {
   color: aqua;
 }
-
-.navbar-toggler {
-  color: aqua;
+header .navbar-toggler {
+  color: #0D314A;
+  background-color: aqua;
 }
-
-.navbar-brand {
+header .navbar-brand {
   color: #fff;
 }
-
-.nav-item:hover {
-  background-color: aqua;
-  border-radius: 10px;
-  transition: 1s;
-}
-
-.nav-item {
+header .nav-item {
   padding: 0 5px;
   text-decoration: none;
+  border-radius: 10px;
 }
-
-.collapse.navbar-collapse.justify-content-end ul li a {
+header .nav-item:hover {
+  background-color: aqua;
+  max-width: 130px;
+  border-radius: 10px;
+  transition: 1.5s;
+}
+header .collapse.navbar-collapse.justify-content-end ul li a {
   color: #fff;
 }
-
-.main-logo {
+header .main-logo {
   height: 40px;
 }
 
@@ -69,12 +60,10 @@ header a span {
 footer a {
   padding: 2em;
 }
-
 footer p {
   padding: 20px;
 }
 
-/* MAIN INDEX */
 h1 {
   font-size: 4em;
 }
@@ -96,10 +85,6 @@ h2 {
   font-weight: bold;
 }
 
-.img-fluid.image {
-  border-radius: 20px;
-}
-
 /* ABOUT ME */
 .hacker {
   height: 140px;
@@ -110,41 +95,36 @@ h2 {
 }
 
 .text-about-me.align-items-center {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  align-self: center;
   background-color: #fff;
   color: #191c32;
+  padding: 10px;
   border-radius: 25px;
   border: solid 3px aqua;
-  padding: 10px;
 }
 
 .skills-container {
   background-color: #fff;
   color: #171321;
 }
-
-.card.border-0 i {
+.skills-container .card.border-0 i {
   color: #0D314A;
 }
-
-.row {
+.skills-container .row {
   margin: 0;
 }
-
-.card-body {
+.skills-container .row .card-body {
   height: 7;
 }
-
-.skill.card.border-0.shadow-lg {
-  width: 18rem;
-}
-
-.skill.card.border-0 shadow-lg.p-2 {
+.skills-container .skill.card.border-0.shadow-lg .p-2 {
   width: 18rem;
   min-height: auto;
+}
+.skills-container .list-group {
+  height: 280px;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 /* Contact me*/
@@ -185,7 +165,7 @@ h2 {
   border-radius: 2px;
   font-size: 14px;
   border: solid 1px #171321;
-  max-height: 120px;
+  max-height: 150px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -200,9 +180,7 @@ h2 {
     top: 0 !important;
   }
 }
-
-/* services */
-
+/* Services */
 .container.services h3 {
   font-size: 4em;
 }
@@ -211,7 +189,7 @@ h2 {
   font-size: 2em;
 }
 
-.services .card {
+.container.services .card {
   background-color: #171321;
   border: solid 1px #fff;
   color: #fff;
@@ -227,6 +205,14 @@ h2 {
   width: 15px;
   height: 15px;
   margin-left: 6px;
+}
+
+.container.projects.p-2 .card {
+  background-color: #171321;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  background-color: rgb(3, 2, 62);
 }
 
 /*# sourceMappingURL=style.css.map */

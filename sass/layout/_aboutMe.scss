@@ -1,5 +1,8 @@
 /* ABOUT ME */
 
+
+
+
 .hacker {
     height: 140px;
     
@@ -10,15 +13,11 @@
 }
 
 .text-about-me.align-items-center{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-self: center;
     background-color: #fff;
     color: #191c32;
+    padding: 10px;
     border-radius: 25px;
     border: solid 3px aqua;
-    padding: 10px;
 }
 
 .skills-container {
@@ -37,5 +36,10 @@
         width: 18rem;
         min-height: auto;
     }
-    
+
+    .list-group{
+        height:280px;
+        justify-content: space-around;
+        @include reset-list;
+    }
 }

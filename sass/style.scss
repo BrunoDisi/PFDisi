@@ -1,8 +1,12 @@
-@import "general.scss";
-@import "index.scss";
-@import "aboutMe.scss";
-@import "contactMe.scss";
-@import "services.scss";
+
+@import "bases/_general.scss";
+
+//IMPORT LAYOUT
+@import "layout/index.scss";
+@import "layout/aboutMe.scss";
+@import "layout/contactMe.scss";
+@import "layout/services.scss";
+@import "layout/project"
 
 
 
