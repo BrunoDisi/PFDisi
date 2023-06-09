@@ -1,0 +1,46 @@
+// HEADER
+
+header{
+    background: $secondary-color;
+    a{
+        padding: 5px;
+        span{
+            color: aqua;
+        }
+        
+    }
+    .navbar-nav .nav-item:nth-child(5){
+        background-color: $fourth-color;
+        &:hover{
+            background-color: aqua;
+            max-width: 130px;
+            border-radius: 10px;
+            transition: 1.5s;
+        }    
+    }
+    .navbar-toggler{
+        color: $secondary-color;
+        background-color: aqua;
+    }
+    .navbar-brand{
+        color:#fff
+        }
+    .nav-item{
+        padding: 0 5px;
+        text-decoration: none;
+        border-radius: 10px;
+        &:hover{
+            background-color: aqua;
+            max-width: 130px;
+            border-radius: 10px;
+            transition: 1.5s;
+        }    
+        }    
+    .collapse.navbar-collapse.justify-content-end ul li a{
+            color: #fff
+        }
+    .main-logo {
+            height: 40px ;
+        }    
+    
+}

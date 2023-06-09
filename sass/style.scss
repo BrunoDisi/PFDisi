@@ -1,12 +1,21 @@
 
-@import "bases/_general.scss";
+//IMPORT BASES
+@import "bases/vars.scss";
+@import "bases/body.scss";
+@import "bases/reset.scss";
+@import "bases/mixing.scss";
 
 //IMPORT LAYOUT
 @import "layout/index.scss";
 @import "layout/aboutMe.scss";
 @import "layout/contactMe.scss";
 @import "layout/services.scss";
-@import "layout/project"
+@import "layout/project";
+
+//IMPORT COMPONENTS
+@import "components/header";
+@import "components/footer";
+@import "components/fontsIcons";
 
 
 

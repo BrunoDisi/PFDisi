@@ -6,18 +6,30 @@
         #0D314A 85%
         #0D314A 100%
     )
+    h2 {
+        font-size: 4em;
+    }
+    
+    .hi{
+    font-size: 3em;
+    }
+    
+    .bruno {
+    color: aqua;
+    font-weight: bold;
+    }
+    .button{
+        color: #fff;
+        padding: 20px 50px;
+        border-radius: 1px;
+        text-decoration: none;
+        letter-spacing: 10px;
+        transition: 0.5s;
+        box-shadow: 0 0 5px $button-color-main, 0 0 25px $button-color-main;
+        &:hover{
+            box-shadow: 0 0 5px $button-color-main, 0 0 25px $button-color-main, 0 0 50px $button-color-main, 0 0 100px $button-color-main, 0 0 200px $button-color-main;
+        }
+    }            
 }
-
-h2 {
-    font-size: 4em;
-}
-
-.hi{
-font-size: 3em;
-}
-
-.bruno {
-color: aqua;
-font-weight: bold;
-}
+            
 
