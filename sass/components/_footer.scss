@@ -1,12 +1,15 @@
 /* FOOTER */
 
 footer{
-    a{
+    display: flex;
+    justify-content: space-between;
+        a{
         padding: 2em;
-    }
-    p{
+        }
+        p{
         padding: 20px;
-    }
+        }
+
 }
 
 h1{
